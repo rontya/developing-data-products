@@ -1,0 +1,21 @@
+---
+title: "developing data products assignment"
+author: "rohan patil"
+date: "22/10/2020"
+output: html_document
+---
+
+```{r }
+library(leaflet)
+BELGAUM <- c("<a href= 'https://en.wikipedia.org/wiki/Belgaum")
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(lat=15.85, lng=74.5, popup = BELGAUM) 
+```
+
+
+
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
